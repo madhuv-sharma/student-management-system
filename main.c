@@ -4,12 +4,14 @@
 #include<stdio.h>
 #include<stdlib.h>
 
+
 struct Students
 {
 	int rn;
 	char nm[100];
 	float mks;
 }arr[500];
+
 
 main()
 {
