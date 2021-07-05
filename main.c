@@ -13,9 +13,9 @@ struct Students
 
 main()
 {
-	clrscr()
-	char f_loc[100]
-	printf("Please Enter a Location where you want the Student.dat file to be saved:\n")
+	clrscr();
+	char f_loc[100];
+	printf("Please Enter a Location where you want the Student.dat file to be saved:\n");
 	fgets(f_loc, 100, stdin);
 	FILE *fp=fopen(f_loc, "w");
 	int f=0, i=0, j, k, r, x;
@@ -152,4 +152,5 @@ main()
 				printf("Invalid Input\n");
 		}
 	}while(x!=6);
+	getch();
 }
